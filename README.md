@@ -2,22 +2,6 @@
 # Hi, I'm Yoko Fajar S
 # I'm from Banjarnegara, Jawa Tengah, Indonesia
 # I'm a Web Developer
-
-Welcome to my GitHub profile!
-
-## About Me
-```javascript
-const messages = [
-    "Hi, I'm Yoko Fajar S",
-    "I'm from Banjarnegara, Jawa Tengah, Indonesia",
-    "I'm a Web Developer"
-];
-
-let index = 0;
-setInterval(() => {
-    console.log(messages[index]);
-    index = (index + 1) % messages.length;
-}, 3000);
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -99,18 +83,18 @@ For other icons from shields.io, use [shields-with-icon](https://github.com/prog
  <!--===================================
  dark-mode 
  ===================================-->
- <a href="https://github.com/a13xe/github-readme-activity-graph#gh-dark-mode-only">
+ <a href="https://github.com/yokofajarsantosa/github-readme-activity-graph#gh-dark-mode-only">
   <!--                                                                     |
                                                 (your username goes here)  V  (your username goes here) -->
-  <img alt="" src="https://github-readme-activity-graph.vercel.app/graph?username=a13xe&theme=github-compact&area=true&hide_border=true&height=350#gh-dark-mode-only" width="100%">
+  <img alt="" src="https://github-readme-activity-graph.vercel.app/graph?username=yokofajarsantosa&theme=github-compact&area=true&hide_border=true&height=350#gh-dark-mode-only" width="100%">
  </a>
 
  <!--===================================
  light-mode 
  ===================================-->
- <a href="https://github.com/a13xe/github-readme-activity-graph#gh-light-mode-only">
+ <a href="https://github.com/yokofajarsantosa/github-readme-activity-graph#gh-light-mode-only">
   <!--                                                                    |
                                                (your username goes here)  V  (your username goes here) -->
-  <img alt="" src="https://github-readme-activity-graph.vercel.app/graph?username=a13xe&theme=github&area=true&hide_border=true&height=350#gh-light-mode-only" width="100%">
+  <img alt="" src="https://github-readme-activity-graph.vercel.app/graph?username=yokofajarsantosa&theme=github&area=true&hide_border=true&height=350#gh-light-mode-only" width="100%">
  </a>
 </div>
