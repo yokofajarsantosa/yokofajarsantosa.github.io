@@ -1,7 +1,7 @@
 <!-- Dynamic Intro -->
 <p align="center">
   <a href="#" style="display: inline-block;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Times+New+Roman&size=28&color=FFFFFF&center=true&vCenter=true&width=500&height=60&lines=Hi,+I'm+Yoko+Fajar+S;I'm+from+Banjarnegara,+Jawa+Tengah;I'm+a+Web+Developer&italic=true" alt="Dynamic Intro">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Times+New+Roman&size=28&color=FFFFFF&center=true&vCenter=true&width=500&height=60&lines=Hi,+I'm+Yoko+Fajar+Santosa;I'm+from+Banjarnegara,+Jawa+Tengah;I'm+a+Web+Developer&italic=true" alt="Dynamic Intro">
   </a>
 </p>
 
