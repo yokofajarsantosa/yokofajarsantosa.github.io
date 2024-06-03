@@ -1,14 +1,7 @@
-<!-- Profile Intro -->
-<p align="center">
-  <span style="display:block; margin-left: 0;">Hi, I'm Yoko Fajar S</span>
-  <span style="display:block; margin-left: 10px;">I'm from Banjarnegara, Jawa Tengah, Indonesia</span>
-  <span style="display:block; margin-left: 20px;">I'm a Web Developer</span>
-</p>
-
 <!-- Dynamic Intro -->
 <p align="center">
   <a href="#" style="display: inline-block;">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&size=28&color=007BFF&center=true&vCenter=true&width=500&height=60&lines=Hi,+I'm+Yoko+Fajar+S;I'm+from+Banjarnegara,+Jawa+Tengah,+Indonesia;I'm+a+Web+Developer" alt="Dynamic Intro">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&size=28&color=007BFF&center=true&vCenter=true&width=500&height=60&lines=Hi,+I'm+Yoko+Fajar+S;I'm+From+Banjarnegara,+Jawa+Tengah,+Indonesia;I'm+a+Web+Development" alt="Dynamic Intro">
   </a>
 </p>
 
