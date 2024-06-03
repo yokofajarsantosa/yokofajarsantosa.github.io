@@ -43,3 +43,28 @@
     <img alt="" width=43% src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=yokofajarsantosa&layout=compact&line_height=28&langs_count=6&hide_border=true&include_orgs=true&theme=dark&bg_color=000000#gh-dark-mode-only"/>
   </a>
 </div>
+
+:roller_coaster: Activity graph:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+<div align="center">
+ <!--===================================
+ dark-mode 
+ ===================================-->
+ <a href="https://github.com/yokofajarsantosa/github-readme-activity-graph#gh-dark-mode-only">
+  <!--                                                                     |
+                                                (your username goes here)  V  (your username goes here) -->
+  <img alt="" src="https://github-readme-activity-graph.vercel.app/graph?username=yokofajarsantosa&theme=github-compact&area=true&hide_border=true&height=350#gh-dark-mode-only" width="100%">
+ </a>
+
+ <!--===================================
+ light-mode 
+ ===================================-->
+ <a href="https://github.com/yokofajarsantosa/github-readme-activity-graph#gh-light-mode-only">
+  <!--                                                                    |
+                                               (your username goes here)  V  (your username goes here) -->
+  <img alt="" src="https://github-readme-activity-graph.vercel.app/graph?username=yokofajarsantosa&theme=github&area=true&hide_border=true&height=350#gh-light-mode-only" width="100%">
+ </a>
+</div>
