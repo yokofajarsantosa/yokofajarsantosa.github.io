@@ -258,7 +258,7 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image img {
-  width: 90%;
+  width: 70%;
   margin-left: 6rem;
   border-radius: 10rem;
   cursor: pointer;
@@ -901,7 +901,7 @@ header .navbar ul li a:hover {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   border: 4px solid #0400ff;
   top: 15px;
   border-radius: 50%;
@@ -927,7 +927,7 @@ header .navbar ul li a:hover {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #001eff;
+  border: medium solid #000000;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #002fa6;
 }
@@ -948,12 +948,12 @@ header .navbar ul li a:hover {
   left: -16px;
 }
 .experience .content {
-  background-color: #ebe9ff;
+  background-color: #000000;
   position: relative;
   border-radius: 6px;
   border: #ffffff 1px solid;
   padding: 7px;
-  box-shadow: #000000 0 0 5px;
+  box-shadow: #ffffff 0 0 5px;
   transition: 0.3s ease-in-out;
 }
 .experience .content .tag {
@@ -971,6 +971,7 @@ header .navbar ul li a:hover {
 }
 .experience .content .desc { 
   margin-left: 1.5rem;
+  color: #ffffff;
   padding-bottom: 1rem;
 }
 .experience .content h2{
@@ -986,7 +987,7 @@ header .navbar ul li a:hover {
   font-weight: 600;
 }
 .experience .content .desc h3 a { 
-  color: #000000;
+  color: #ffffff;
   border-radius: 5rem;
   border: #000000 1px solid;
   padding: 1px 10px;
@@ -998,17 +999,17 @@ header .navbar ul li a:hover {
 }
 .experience .content .desc p {
   font-size: 1.2rem;
-  color: #0700c6;
+  color: #ffffff;
   size: 1.2px;
 }
 .experience .content:hover {
-  background: #ffffff;
-  box-shadow: #000000 0 0 10px;
+  background: #000000;
+  box-shadow: #ffffff 0 0 10px;
   transition: 0.3s ease-in-out;
 }
 /* Ensuring that the links inside also change when hovering over .experience .content */
 .experience .content:hover .desc h3 a {
-  background-color: #ebe9ff;
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -1234,7 +1235,7 @@ header .navbar ul li a:hover {
 
 .article h2 {
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 10px; /* Increased gap from title */
 }
 
@@ -1293,7 +1294,7 @@ header .navbar ul li a:hover {
 }
 
 /* Fixing Text Visibility */
-.article-box h3 {
+.article-box h2 {
   margin: 15px 0;
   font-size: 22px;
   color: #ffffff ; /* Force solid black */
@@ -1592,10 +1593,10 @@ header .navbar ul li a:hover {
   min-width: calc(100% / 3 - 20px);
   max-width: 400px;
   flex-shrink: 0;
-  background: #fffefe;
+  background: #000000;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.33);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.33);
   text-align: left;
 }
 
@@ -1623,7 +1624,7 @@ header .navbar ul li a:hover {
 }
 
 .award-box p {
-  color: #000 ; /* Force solid black */
+  color: #ffffff ; /* Force solid black */
   font-size: 15px;
   line-height: 1.5;
   background: transparent ; /* Prevent blending */
@@ -2178,31 +2179,6 @@ form .button-area {
     font-size: 1rem;
   }
 }
-/* Dark Mode - Footer Section */
-.dark-mode .footer {
-  background: #121212;
-}
-.dark-mode .footer .box h3 {
-  color: #ffffff;
-}
-.dark-mode .footer .box p {
-  color: #ffffff;
-}
-.dark-mode .footer .box a {
-  color: #ffffff;
-}
-.dark-mode .footer .box a:hover {
-  color: #ffffff;
-}
-.dark-mode .footer .box-container .box .share a {
-  color: #ffffff;
-}
-.dark-mode .footer p i.fas {
-  color: #ffffff;
-}
-.dark-mode .footer .credit a {
-  color: #ffbc6b;
-}
 /* footer section ends */
 
 /* common media queries starts*/
@@ -2236,10 +2212,4 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 
-.dark-mode .footer{
-  background-color: #000000;
-}
-.dark-mode .footer .credit{
-  color: #ffffff;
-}
 /* scroll top ends */
