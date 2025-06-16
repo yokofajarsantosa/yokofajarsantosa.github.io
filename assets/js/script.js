@@ -350,54 +350,6 @@ function setParticleColor() {
   });
 }
 
-// Theme Toggle Logic
-const themeToggle = document.getElementById("theme-toggle");
-const body = document.body;
-
-// Check saved theme preference
-if (localStorage.getItem("theme") === "dark") {
-  body.classList.add("dark-mode");
-  themeToggle.innerHTML = '<i class="fas fa-sun"></i>'; // Sun icon for light mode
-} else {
-  body.classList.remove("dark-mode");
-  themeToggle.innerHTML = '<i class="fas fa-moon"></i>'; // Moon icon for dark mode
-}
-
-// Theme Toggle Click Event
-themeToggle.addEventListener("click", () => {
-  body.classList.toggle("dark-mode");
-
-  // Change icon and save preference
-  if (body.classList.contains("dark-mode")) {
-      themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
-      localStorage.setItem("theme", "dark");
-  } else {
-      themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
-      localStorage.setItem("theme", "light");
-  }
-
-  // Delay to apply particle color change smoothly
-  setTimeout(setParticleColor, 300);
-});
-
-// Detect System Dark Mode Change
-window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (event) => {
-  if (event.matches) {
-      body.classList.add("dark-mode");
-      themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
-      localStorage.setItem("theme", "dark");
-  } else {
-      body.classList.remove("dark-mode");
-      themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
-      localStorage.setItem("theme", "light");
-  }
-  setParticleColor();
-});
-
-// Initialize Particles.js on Load
-document.addEventListener("DOMContentLoaded", setParticleColor);
-
-
 
 // disable developer mode
 document.onkeydown = function (e) {
