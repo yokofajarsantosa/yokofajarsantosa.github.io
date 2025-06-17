@@ -154,7 +154,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: rgb(255, 255, 255);
   display: none;
 }
 @media (max-width: 768px) {
@@ -188,15 +188,15 @@ header .navbar ul li a:hover {
     display: block;
     padding: 1rem;
     text-align: left;
-    color: #000000;
+    color: #ffffff;
     font-size: 2rem;
   }
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
     padding: 1rem;
-    color: #000000;
+    color: #011aff;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #011aff;
+    border-bottom: 0.5rem solid #b8b8b8;
   }
   .fa-times {
     transform: rotate(180deg);
